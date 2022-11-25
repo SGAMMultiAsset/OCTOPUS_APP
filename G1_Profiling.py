@@ -1,11 +1,7 @@
 # streamlit run "D:\OCTOPUS\10.App\G1_Profiling.py"
 
-import win32com.client as win32
 import streamlit as st
-import numpy as np
-import pandas as pd
 import os, sqlite3
-from datetime import datetime
 
 
 ### 로컬 DB 설정
