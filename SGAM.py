@@ -7,7 +7,7 @@ from PIL import Image
 import webbrowser
 
 ### 로컬 DB 설정
-app_path = os.path.abspath('/OCTOPUS/')  # (절대)
+# app_path = os.path.abspath('/OCTOPUS/')  # (절대)
 
 ### 전체 화면 폭
 st.set_page_config("스마일게이트 자산운용 디지털플랫폼 데모버전", layout="wide")
@@ -37,7 +37,7 @@ def main() :
         st.image(url)
         st.text('사진출처 : https://namu.wiki/w/%ED%95%9C%EC%9C%A0%EC%95%84')
         
-        img = Image.open(app_path+'/gui/SGAM.png')
+        img = Image.open('SGAM.png')
         st.image(img)
 # 센터1
     with con3 :
