@@ -1,7 +1,6 @@
 # streamlit run "D:\OCTOPUS\10.App\SGAM.py"
 
 import streamlit as st
-from tkinter.tix import COLUMN
 from pyparsing import empty
 import os
 from PIL import Image
